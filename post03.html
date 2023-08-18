@@ -14,6 +14,9 @@
     <!-- FontAwesome JS-->
 	<script defer src="assets/fontawesome/js/all.min.js"></script>
     
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="assets/plugins/highlight/styles/monokai-sublime.css">
+    
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/theme-1.css">
     
@@ -30,7 +33,7 @@
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			
+
 			<div id="navigation" class="collapse navbar-collapse flex-column" >
 				<div class="profile-section pt-3 pt-lg-0">
 				    <img class="profile-image mb-3 rounded-circle mx-auto" src="assets/images/gamalindex.jpg" alt="image" >			
@@ -49,7 +52,7 @@
 					    <a class="nav-link" href="index.html"><i class="fas fa-home fa-fw me-2"></i>Home <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-					    <a class="nav-link active" href="about.html"><i class="fas fa-user fa-fw me-2"></i>About Me</a>
+					    <a class="nav-link" href="about.html"><i class="fas fa-user fa-fw me-2"></i>About Me</a>
 					</li>
 				</ul>
 			</div>
@@ -57,43 +60,48 @@
     </header>
     
     <div class="main-wrapper">
-	    	    
-	    <article class="about-section py-5">
-		    <div class="container">
-			    <h2 class="title mb-3">About Me</h2>
-			    
-			    <p>كابتن /جيمي 
-					خبرة ٥ سنين ف مجال كمال الأجسام والتدريب والمكملات الغذائية 
-					حاصل ع شهادة المدرب الشخصي (issa)
-					معايا هساعدك توصل لهدفك وتحقق حلمك 
-					معايا هنوضع حلول لكل المشاكل اللي بتقابلك وكمان بنظم وقتنا حتي لو يومنا مشغول 
-					معايا في حلول لكل حاجة حتي الوجبات وبدايلها حتي لو معرفتش توفرها بنتصرف  معايا مش هعطلك ف حاجة معايا هتكون قد اي حاجة وتقدر تتخطي اي مشكلة وتحلها او تتعايش معاها  وكمان خبرة كويسة ف البطولات بحكم خبرتي ف المسرح يلا يبطل انت كمان تقدر تكون حاجة وتثبت نفسك</p>
-			    <figure><img class="img-fluid" src="assets/images/aboume.jpg" alt="image"></figure>
-			    <h5 class="mt-5">My Skills and Experiences</h5>
-			    <p> 
-					I'm professional in personal training .
-					I can make you are Confident of yourself.
-					I am qualified to achieve your goal.
-					I have extensive experience in the field of nutritional supplements.
-					I have a lot of tournament experience.
-					I can make a hero out of you.
-					I have a course in cross fit.</p>
-		    </div>
-	    </article><!--//about-section-->
 	    
-	    <footer class="footer text-center py-2 theme-bg-dark">
-		   
-	        <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
-            <small class="copyright">Designed by <a href="https://www.facebook.com/profile.php?id=100078690249663&mibextid=ZbWKwL" target="_blank">RAAFAT MAHMOUD</a></small>
-		   
+	    <article class="blog-post px-3 py-5 p-md-5">
+		    <div class="container single-col-max-width">
+			    <header class="blog-post-header">
+				    <h2 class="title mb-2">معلومة للشوفان</h2>
+			    </header>
+			    <div class="blog-post-body">
+				    <figure class="blog-banner">
+				        <a href="#"><img class="img-fluid" src="assets/images/blog/post03.jpg" alt="image"></a>
+				    </figure>
+				    <p>هو الشوفان ده للتضخيم ولا للتخسيس؟؟ 
+						الشوفان بيتميز بانه غني بالالياف وبالبروتين
+						ولكل 100جرام تقريبا فيه 13جرام بروتين و10الياف ولاكن الكربوهيدرات بتكون67جرام كربوهيدرات
+						علشان كده بيعتمد عليه كمصدر للكربوهيدرات مش مصدر للبروتين
+						سعراته بيبقي فيه لكل 100جرام 370سعرحرارى تقريبا
+						فاسواء بتخس هيتناسب معاك لو حطيته فى نطاق سعراتك 
+						ولو بضخم هيتناسب معاك لو حطيته في نطاق سعراتك وطبعا ب حسابات تانية 
+						الخلاصة الشوفان ولا بيضخم ولا بيخسس هو على حسب انت هتوظفه او هتتعامل معاه  ازاي وهتاخد منه كميات اد اية وع حسب هدفك
+					</p>
+				    
+				
+					<nav class="blog-nav nav nav-justified my-5">
+						<a class="nav-link-prev nav-item nav-link rounded-left" href="post01.html">السابق<i class="arrow-prev fas fa-long-arrow-alt-left"></i></a>
+						<a class="nav-link-next nav-item nav-link rounded-right" href="#">التالي<i class="arrow-next fas fa-long-arrow-alt-right"></i></a>
+					</nav>
+	    </article>
 	    </footer>
     
     </div><!--//main-wrapper-->
     
+
+        
        
     <!-- Javascript -->          
     <script src="assets/plugins/popper.min.js"></script> 
     <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
+
+    <!-- Page Specific JS -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="assets/js/blog.js"></script> 
     
 
 </body>
